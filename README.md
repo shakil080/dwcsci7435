@@ -1,4 +1,4 @@
-# dwcsci7435
+# Data WareHousing Project
 Graduate Student Information Data Warehousing Management
 
 # Pre-requisite

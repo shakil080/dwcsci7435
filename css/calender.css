@@ -1,0 +1,135 @@
+
+table.calTable {
+	width: 850px;
+	margin:0 auto !important;
+	font-size: 14px;
+    font-family: "futura-pt",sans-serif;
+    color: #393939;
+}
+/* dates */
+table.calTable {margin: 20px 0;padding: 0;}
+table.calTable .cellWidth {
+	margin: 0;
+	padding: 30px 0 20px 0;
+	width: 115px;
+	min-width: 115px;
+	max-width: 115px;
+	font-family: "futura-pt",sans-serif;
+    color: #393939;
+    height: 40px;
+    text-align: center;
+    vertical-align: center;
+    /*border-top: 1px #ccc solid;*/
+
+}
+/* cells */ 
+table.calTable .calCurrentcell, table.calTable .calPastcell {
+	margin: 2px;
+	padding: 5px;
+	width: 115px;
+	width: 115px;
+	min-width: 115px;
+	max-width: 115px;
+	height: 104px;
+	border:1px #ccc solid;
+	vertical-align: top;
+	text-align: left;
+}
+
+
+/** Past cells **/
+table.calTable .calPastcell {color: #ccc;}
+
+
+table.calTable .availableSeat, table.calTable .limitedSeat, table.calTable .soldoutSeat {
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width:95px; 
+	height:30px; 
+	background:#357EE1;
+	color:#fff;
+	text-align:center;
+	padding:5px 0px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	float:left;
+	margin:2px;
+}
+
+table.calTable .limitedSeat {background:#172D7B;}
+table.calTable .soldoutSeat {background:#393939;}
+
+
+
+table.calTable .calInformation {
+	margin: 0 ;
+	padding: 2px 7px;
+	width: 30px;
+	height: 30px;
+	background: #a80000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 0;
+	font-family: "futura-pt",sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+
+.calendar-key-outer{width:560px; height:50px; border:1px solid #ccc; -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;}
+
+.key-calendar-available, .key-calendar-limited-availability, .key-calendar-closed{
+	width:155px; 
+	height:35px; 
+	background:#357EE1;
+	color:#fff;
+	text-align:center;
+	padding:8px 0px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	float:left;
+	margin:5px;
+}
+.key-calendar-limited-availability{background:#172D7B;} 
+.key-calendar-closed{background:#393939;}
+
+
+.calender-info-box {
+	padding: 5px;
+	position: absolute;
+	background: #b40000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b40000 0%, #900000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b40000), color-stop(100%,#900000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b40000 0%,#900000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b40000 0%,#900000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b40000 0%,#900000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #b40000 0%,#900000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b40000', endColorstr='#900000',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: none;
+}
+
+table.calender-info-text {
+	margin: 10px;
+	padding: 5px;
+	border:1px #fff solid;
+	width: 240px;
+	height: 60px;
+	min-height: 60px;
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+}
+

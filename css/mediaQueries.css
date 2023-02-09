@@ -1,0 +1,19 @@
+
+
+/**
+	
+	Max width of 1023px
+
+**/
+@media only screen and (max-width: 1024px) {
+
+	/** HEADER **/
+	.title-treatment-container, .title-treatment-palm-tree {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		margin-top:0;
+	}
+
+
+}
